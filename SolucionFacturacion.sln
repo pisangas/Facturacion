@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebasIntegracion", "Prueb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacturacionWebApi", "FacturacionWebApi\FacturacionWebApi.csproj", "{97F46273-FC84-4FDB-8493-8C2B29D4C946}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacturacionMVC", "FacturacionMVC\FacturacionMVC.csproj", "{C918CFEA-6A72-499D-9E9C-EEAD70034AD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{97F46273-FC84-4FDB-8493-8C2B29D4C946}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97F46273-FC84-4FDB-8493-8C2B29D4C946}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97F46273-FC84-4FDB-8493-8C2B29D4C946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C918CFEA-6A72-499D-9E9C-EEAD70034AD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C918CFEA-6A72-499D-9E9C-EEAD70034AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C918CFEA-6A72-499D-9E9C-EEAD70034AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C918CFEA-6A72-499D-9E9C-EEAD70034AD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,6 +81,7 @@ Global
 		{AB2E1062-F808-429F-9C55-0FE1E2E6426D} = {BF74D914-7D30-402A-A17F-9523E349B547}
 		{FD576647-7252-4004-ACA4-FCFD4B512C90} = {BF74D914-7D30-402A-A17F-9523E349B547}
 		{97F46273-FC84-4FDB-8493-8C2B29D4C946} = {9DF32F94-029D-4609-881C-15EEA457B17C}
+		{C918CFEA-6A72-499D-9E9C-EEAD70034AD6} = {5511D395-2E29-46F7-9F78-63C5B9E31E06}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4133769D-4430-42FC-ACE9-743A93CDEB47}
