@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace AccesoDatos
 {
-    class AccesoDatosProducto : IAccesoDatosProducto
+    public class AccesoDatosProducto : IAccesoDatosProducto
     {
         private Contexto _contexto;
 

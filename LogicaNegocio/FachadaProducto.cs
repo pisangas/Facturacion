@@ -16,7 +16,7 @@ namespace LogicaNegocio
         {
             _accesoDatosProducto = accesoDatosProducto;
         }
-        public List<Producto> ObtenerProducto()
+        public List<Producto> ObtenerProductos()
         {
             return _accesoDatosProducto.ObtenerProductos();
         }

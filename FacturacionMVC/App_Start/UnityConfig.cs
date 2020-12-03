@@ -1,3 +1,6 @@
+using AccesoDatos;
+using AccesoDatos.Contratos;
+using AccesoDatos.SQLServer;
 using FacturacionMVC.Controllers;
 using System.Web.Mvc;
 using Unity;
@@ -15,6 +18,8 @@ namespace FacturacionMVC
             container.RegisterType<AccountController>(new InjectionConstructor());
             container.RegisterType<ManageController>(new InjectionConstructor());
 
+            container.RegisterType<Contexto, ContextoSQLServer>();
+            container.RegisterType<IAccesoDatosProducto, AccesoDatosProducto>();
 
             DependencyResolver.SetResolver(new UnityDependencyResolver(container));
         }
