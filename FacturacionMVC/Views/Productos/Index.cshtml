@@ -30,7 +30,8 @@
                 @Html.DisplayFor(modelItem => item.Precio)
             </td>
             <td>
-                @Html.ActionLink("Editar", "Editar", new { idProducto = item.ProductoId})
+                @Html.ActionLink("Editar", "Editar", new { idProducto = item.ProductoId })
+                @Html.ActionLink("Eliminar", "Eliminar", new { idProducto = item.ProductoId })
             </td>
         </tr>
     }
