@@ -22,12 +22,24 @@ namespace FacturacionMVC.Controllers
             return View(_fachadaProducto.ObtenerProductos());
         }
 
-        public ActionResult CrearProducto(Producto producto)
+        //GET CREAR
+        public ActionResult Crear()
         {
-            return View(_fachadaProducto.InsertarProducto(producto));
+            return View();
         }
+        
+        //POST Crear
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Crear(Producto producto)
+        {
+            if (ModelState.IsValid)
+            {
+                _fachadaProducto.InsertarProducto(producto);
+                return RedirectToAction("Index");
 
-
-
+            }
+            return View(producto);
+        }
     }
 }
